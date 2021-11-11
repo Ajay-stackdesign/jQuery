@@ -143,9 +143,15 @@ jQuery(document).ready(($) => {
 
 
     //get text
-    let textArea = $("p").text("hello world")
-    console.log(textArea);
+   // let textArea = $("p").text("hello world")
+    //console.log(textArea);
 
-    let get = $("btn-id").text("buttonName");
-    console.log(get)
+    //get and set value sing val();
+
+    let value = $("#name").val()
+    console.log(value)
+
+    $("#btn1").click(() => {
+        $("#name").val("ajay sahani")
+    })
 })
