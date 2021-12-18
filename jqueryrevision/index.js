@@ -38,3 +38,28 @@ jQuery(document).ready(($) => {
         alert("mouseleave")
     })
 })
+
+jQuery.noConflict()
+jQuery(document).ready(($) => {
+    $("#text").keydown(() => {
+        console.log("keydown")
+    })
+    $("#text").keypress(() => {
+        console.log("keyppresses")
+    })
+    $("#text").keyup(() => {
+        console.log("kkeyup")
+    })
+})
+// jQuery.noConflict();
+// jQuery(document).ready(($) => {
+//     $("#text").keydown(() => {
+//         console.log("keydown")
+//     })
+//     $("#text").keypress(() => {
+//         console.log("keypress")
+//     })
+//     $("#text").keyup(() => {
+//         console.log("keyup")
+//     })
+// })
