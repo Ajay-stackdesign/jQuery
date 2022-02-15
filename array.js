@@ -6,14 +6,14 @@
 
 const minimmumNumber = (array => {
 
-    if (!array.length){
+    if (!array.length) {
         throw new Error("array is empty");
-    }else if(array.length === 0){
+    } else if (array.length === 0) {
         return array[0];
-    }else{
+    } else {
         let currentMin = array[0];
-        for(let i=1;i<array.length;i++){
-            if(array[i] < currentMin){
+        for (let i = 1; i < array.length; i++) {
+            if (array[i] < currentMin) {
                 currentMin = array[i];
             }
         }
@@ -21,5 +21,7 @@ const minimmumNumber = (array => {
     }
 })
 
-const result = minimmumNumber([4,3,1,5]);
+const result = minimmumNumber([4, 3, 1, 5]);
+
+
 console.log(result)
