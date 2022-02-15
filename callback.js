@@ -11,12 +11,12 @@ const displayer = myDisplayer(10)
 console.log(calculator)
 console.log(displayer)
 let setinterval = "name"
-setInterval(() => {
-    if (setInterval == "name") {
-        console.log("setinterval")
-        clearInterval;
-    }
-}, 50);
+// setInterval(() => {
+//     if (setInterval == "name") {
+//         console.log("setinterval")
+//         clearInterval;
+//     }
+// }, 50);
 
 setInterval(() => {
     let d = new Date();
