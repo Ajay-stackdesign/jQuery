@@ -18,6 +18,7 @@ const minimmumNumber = (array => {
             }
         }
         return currentMin
+
     }
 })
 
