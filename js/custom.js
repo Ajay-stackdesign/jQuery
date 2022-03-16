@@ -1,55 +1,55 @@
 
 
-// jQuery(selector).click(function()=>{   this is syntax
+// // jQuery(selector).click(function()=>{   this is syntax
 
-// })
+// // })
 
-// $("button").click(function () {
-//         console.log("jquery")
-//     })  
+// // $("button").click(function () {
+// //         console.log("jquery")
+// //     })
+
+// // jQuery.noConflict();
+// // jQuery(document).ready(($) => {
+// //     $("p").click(() => {alert("button clicked")})
+
+// //     $("#btn-id").click(() => {
+// //         alert("button with id clicked")
+// //     })
+
+// //     $(".btn-class").click(() => {
+// //         alert("btn-class")
+// //     })
+// // })
+
+// // jQuery.noConflict();
+// // jQuery(document).ready(($) => {
+// //     $("p").click(() => {
+// //         console.log("clicked")
+// //     })
+// //     $("p").dblclick(() => {
+// //         console.log("dblclicked")
+// //     })
+// //     $("p").mouseenter(() => {
+// //         console.log("mouse enter")
+// //     })
+// //     $("p").mouseleave(() => {
+// //         console.log("mouse leave")
+// //     })
+// // })
+
 
 // jQuery.noConflict();
 // jQuery(document).ready(($) => {
-//     $("p").click(() => {alert("button clicked")})
-
-//     $("#btn-id").click(() => {
-//         alert("button with id clicked")
+//     $("#text").keydown(() => {
+//         console.log("keydown")
 //     })
-
-//     $(".btn-class").click(() => {
-//         alert("btn-class")
+//     $("#text").keypress(() => {
+//         console.log("keypress")
 //     })
-// })
-
-// jQuery.noConflict();
-// jQuery(document).ready(($) => {
-//     $("p").click(() => {
-//         console.log("clicked")
-//     })
-//     $("p").dblclick(() => {
-//         console.log("dblclicked")
-//     })
-//     $("p").mouseenter(() => {
-//         console.log("mouse enter")
-//     })
-//     $("p").mouseleave(() => {
-//         console.log("mouse leave")
+//     $("#text").keyup(() => {
+//         console.log("keyup")
 //     })
 // })
-
-
-jQuery.noConflict();
-jQuery(document).ready(($) => {
-    $("#text").keydown(() => {
-        console.log("keydown")
-    })
-    $("#text").keypress(() => {
-        console.log("keypress")
-    })
-    $("#text").keyup(() => {
-        console.log("keyup")
-    })
-})
 
 // jQuery.noConflict();
 // jQuery(document).ready(($) => {
@@ -60,7 +60,7 @@ jQuery(document).ready(($) => {
 //         console.log("form subitted")
 //         e.preventDefault()
 //     })
-//     $(window).resize(function(){
+//     $(window).resize(function () {
 //         console.log("wondow resize")
 //     })
 // })
@@ -68,15 +68,15 @@ jQuery(document).ready(($) => {
 // jQuery.noConflict();
 // jQuery(document).ready(($) => {
 //     $("#btn-hide").click(() => {
-//         $("#image-id").hide(5000,() => {
+//         $("#image-id").hide(5000, () => {
 //             console.log("imahe is")
 //         });
-//     })   
+//     })
 //     $("#btn-show").click(() => {
-//         $("#image-id").show(5000,() => {
+//         $("#image-id").show(5000, () => {
 //             console.log("hi show ")
 //         })
-//     }) 
+//     })
 //     $("#btn-toggle").click(() => {
 //         $("#image-id").toggle(() => {
 //             console.log("hide/show")
@@ -85,14 +85,14 @@ jQuery(document).ready(($) => {
 // })
 
 // jQuery.noConflict();
-// jQuery(document).ready(($) =>{
+// jQuery(document).ready(($) => {
 //     $("#btn-fadeIn").click(() => {
 //         $("#image-id").fadeIn(() => {
 //             console.log("fade in")
 //         })
 //     })
 //     $("#btn-fadeTo").click(() => {
-//         $("#image-id").fadeTo(1000,0.5,() => {
+//         $("#image-id").fadeTo(1000, 0.5, () => {
 //             console.log("fade To")
 //         })
 //     })
@@ -123,35 +123,35 @@ jQuery(document).ready(($) => {
 //         $("#image-id").slideDown(() => {
 //             console.log("slide Down")
 //         })
+//         //     })
+//         $("#slideToggle").click(() => {
+//             $("#image-id").slideToggle(() => {
+//                 console.log("slide toggle")
+//             })
+//         })
+//     })
+
+// // jQuery.noConflict();
+// // jQuery(document).ready(($) => {
+// //     $("#zom-id").click(() => {
+// //         $("#zombie").animate({left: "+=80"},() => {
+// //             console.log("zombie animation")
+// //         })
 // //     })
-//     $("#slideToggle").click(() => {
-//         $("#image-id").slideToggle(() => {
-//             console.log("slide toggle")
-//         })
-//     })
-// })
-// jQuery.noConflict();
-// jQuery(document).ready(($) => {
-//     $("#zom-id").click(() => {
-//         $("#zombie").animate({left: "+=80"},() => {
-//             console.log("zombie animation")
-//         })
-//     })
-//     //get text area
-//     let text = $("p").text();
-//     console.log(text);
+// //     //get text area
+// //     let text = $("p").text();
+// //     console.log(text);
 
 
-//     //get text
-//    // let textArea = $("p").text("hello world")
-//     //console.log(textArea);
+// //     //get text
+// //    // let textArea = $("p").text("hello world")
+// //     //console.log(textArea);
 
-//     //get and set value sing val();
+// //     //get and set value sing val();
 
-//     let value = $("#name").val()
-//     console.log(value)
+// //     let value = $("#name").val()
+// //     console.log(value)
 
-//     $("#btn1").click(() => {
-//         $("#name").val("ajay sahani")
-//     })
-// })
+// //     $("#btn1").click(() => {
+// //         $("#name").val("ajay sahani")
+// //     }???//////
